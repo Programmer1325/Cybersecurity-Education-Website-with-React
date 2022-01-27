@@ -1,13 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Poiret One", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #000d50;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.Home-Body {
+  overflow-y: hidden;
+}
+
+.Heading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 118px;
+  text-align: center;
+  color: #24ff20;
+}
+
+.Text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 66px;
+  text-align: center;
+  z-index: 1000;
+  color: #ffffff;
+}
+
+.Design {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  left: 0;
+  background: linear-gradient(#dd3434, #2797ff);
+  filter: blur(50px);
+  clip-path: circle(25% at left 50%);
+  z-index: -1;
+}
+
+.Design2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(192deg, #ddd634 21.6%, #2797ff 80.56%);
+  filter: blur(50px);
+  clip-path: circle(15% at right 80%);
+  z-index: -1;
+}
+
+.BottomBar {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 145px;
+  background: rgba(108, 255, 167, 0.95);
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Button {
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 72px;
+  min-width: 200px;
+  width: 300px;
+  height: 70px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.List {
+  margin-bottom: 200px;
+}
+
+.Video-Body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Video {
+  position: relative;
+  top: -25px;
+  width: 900px;
+  max-width: 1268px;
+  height: 500px;
+  max-height: 715px;
+}
+
+.ButtonText {
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
 }

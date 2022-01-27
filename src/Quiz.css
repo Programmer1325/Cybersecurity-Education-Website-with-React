@@ -1,0 +1,23 @@
+.Quiz-Body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poiret One', cursive;
+}
+
+.Answer-Section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Quiz-Btn {
+  background: #B53471;
+  border: none;
+  cursor: pointer;
+  height: 400px;
+}
+
+.ButtonText {
+    color: white;
+}
