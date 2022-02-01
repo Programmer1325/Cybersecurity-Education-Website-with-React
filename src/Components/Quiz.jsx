@@ -93,15 +93,14 @@ function Quiz() {
     }
   };
 
-  const Feedbackgiver = (FinalScore) => {
+  const FeedbackGiver = (FinalScore) => {
     var Feedback = "Bad job. Read the resources and see the video again";
 
     if (FinalScore > 3) {
       Feedback = "Good job. You are a cybersecurity expert";
     }
-
-    return Feedback
-  };
+    return Feedback;
+  }
 
   return (
     <div className="Quiz-Body">
@@ -110,7 +109,7 @@ function Quiz() {
           <h1 className="Heading">
             You scored {score} out of {Questions.length}
           </h1>
-          <p className="Text">{Feedbackgiver(score)}</p>
+          <p className="Text">{FeedbackGiver(score)}</p>
         </div>
       ) : (
         <>
