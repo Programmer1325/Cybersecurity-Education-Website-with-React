@@ -6,22 +6,22 @@ function Navbar() {
     <div className="BottomBar">
       <Link to="/">
         <div className="Button">
-          <p className="Text">Home</p>
+          <p className="Text Bar">Home</p>
         </div>
       </Link>
       <Link to="/resources">
         <div className="Button">
-          <p className="Text">Resources</p>
+          <p className="Text Bar">Resources</p>
         </div>
       </Link>
       <Link to="/videos">
         <div className="Button">
-          <p className="Text">Videos</p>
+          <p className="Text Bar">Videos</p>
         </div>
       </Link>
       <Link to="/quiz">
         <div className="Button">
-          <p className="Text">Quiz</p>
+          <p className="Text Bar">Quiz</p>
         </div>
       </Link>
     </div>
